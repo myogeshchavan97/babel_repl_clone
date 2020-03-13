@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Output = ({ output, hasError }) => {
   return (
     <div className="output">
@@ -12,5 +11,4 @@ const Output = ({ output, hasError }) => {
     </div>
   );
 };
-
 export default Output;

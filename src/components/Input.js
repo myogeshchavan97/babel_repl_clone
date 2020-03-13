@@ -1,6 +1,5 @@
 import React from 'react';
 import Error from './Error';
-
 const Input = ({ input, handleInputChange, errorMsg }) => {
   return (
     <div className="input">
@@ -18,5 +17,4 @@ const Input = ({ input, handleInputChange, errorMsg }) => {
     </div>
   );
 };
-
 export default Input;
